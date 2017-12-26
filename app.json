@@ -1,0 +1,11 @@
+{
+	"name": "aura",
+  "description": "A simple project to get started with angular on Heroku",
+  "repository": "https://github.com/michaelmior/heroku-django-skeleton",
+  "keywords": ["aura", "angular", "template", "bootstrap"],
+  "scripts": {
+    "postinstall": "ng build --aot -prod",
+		"start": "node server.js",
+
+  }
+}
